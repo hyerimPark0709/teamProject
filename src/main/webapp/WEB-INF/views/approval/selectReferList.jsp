@@ -108,7 +108,6 @@
 	            var tdArr = new Array();
 	            var checkbox = $("input[name=refer-list]:checked");
 	            
-	            
 	            checkbox.each(function(i) {
 		
 		            var tr = checkbox.parent().parent().eq(i);
@@ -142,7 +141,7 @@
 		                +'<td>'+ position +'</td></tr>'
 		            );
 	                
-		            for (var i = 1; i < tdArr.length; i++) {
+		            for (var i = 0; i < tdArr.length; i++) {
 	                    if($('input[name=refer-list]:checked')) {
 	                        $(this).parent().parent().remove();
 	                        $('input[id=refer-listAll]:checkbox').prop('checked', false);

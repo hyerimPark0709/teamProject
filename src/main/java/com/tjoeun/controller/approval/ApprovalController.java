@@ -316,9 +316,6 @@ public class ApprovalController {
 		int result = 0;
 		result = mapper.canceled3(appNo);
 
-		// 쪽지보내기 기능 추가 해 볼 예정
-		//
-
 		return result;
 	}
 
